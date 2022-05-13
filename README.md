@@ -1,5 +1,13 @@
 # DCGAN_GENERATE_FACE
-GAN生成人脸，做了很多版本，这是效果最好的了，但是生成图片的质量任然堪忧
-到最后生成器基本不会学习了，
+采用数据集：http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html
 
-判别器还是学的太快，于是调大了辨别器dropout的概率，但效果非常小
+
+GAN生成人脸，做了很多版本，这是效果最好的了，但是生成图片的质量任然堪忧
+loss 如图，到最后生成器基本不会学习了，
+![这里随便写文字](https://github.com/saber805/DCGAN_GENERATE_FACE/blob/main/loss.jpg)
+
+
+判别器还是学的太快，于是调大了辨别器dropout的概率，但效果非常有限,继续训练下去意义不大，停了
+![](https://github.com/saber805/DCGAN_GENERATE_FACE/blob/main/loss2.jpg)
+
+
